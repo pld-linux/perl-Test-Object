@@ -6,8 +6,7 @@
 %define		pdir	Test
 %define		pnam	Object
 Summary:	Test::Object - thoroughly testing objects via registered handlers
-# TODO
-#Summary(pl):	Test::Object - 
+Summary(pl):	Test::Object - gruntowne testowanie obiektów poprzez zarejestrowane procedury obs³ugi
 Name:		perl-Test-Object
 Version:	0.07
 Release:	1
@@ -16,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ab71791756faaabc3b4fad5bcc1df50f
+URL:		http://search.cpan.org/dist/Test-Object/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -27,7 +27,7 @@ test what you believe is a valid object against the expected behaviour
 of all of the classes in its inheritance tree in one single call.
 
 %description -l pl
-"Test::Object" jeswt pakietem testowym, który ma s³u¿yæ ³atwemu
+"Test::Object" jest pakietem testowym, który ma s³u¿yæ ³atwemu
 testowaniu czy dany obiekt zachowuje siê w oczekiwany sposób we
 wszystkich klasach w swoim drzewie dziedziczenia przy pojedynczym
 wywo³aniu.
