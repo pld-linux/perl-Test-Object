@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Object
 Summary:	Test::Object - thoroughly testing objects via registered handlers
-Summary(pl.UTF-8):   Test::Object - gruntowne testowanie obiektów poprzez zarejestrowane procedury obsługi
+Summary(pl.UTF-8):	Test::Object - gruntowne testowanie obiektów poprzez zarejestrowane procedury obsługi
 Name:		perl-Test-Object
 Version:	0.07
 Release:	1
