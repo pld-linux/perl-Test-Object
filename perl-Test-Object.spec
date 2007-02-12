@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Object
 Summary:	Test::Object - thoroughly testing objects via registered handlers
-Summary(pl):	Test::Object - gruntowne testowanie obiektów poprzez zarejestrowane procedury obs³ugi
+Summary(pl.UTF-8):   Test::Object - gruntowne testowanie obiektÃ³w poprzez zarejestrowane procedury obsÅ‚ugi
 Name:		perl-Test-Object
 Version:	0.07
 Release:	1
@@ -26,11 +26,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 test what you believe is a valid object against the expected behaviour
 of all of the classes in its inheritance tree in one single call.
 
-%description -l pl
-"Test::Object" jest pakietem testowym, który ma s³u¿yæ ³atwemu
-testowaniu czy dany obiekt zachowuje siê w oczekiwany sposób we
+%description -l pl.UTF-8
+"Test::Object" jest pakietem testowym, ktÃ³ry ma sÅ‚uÅ¼yÄ‡ Å‚atwemu
+testowaniu czy dany obiekt zachowuje siÄ™ w oczekiwany sposÃ³b we
 wszystkich klasach w swoim drzewie dziedziczenia przy pojedynczym
-wywo³aniu.
+wywoÅ‚aniu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
